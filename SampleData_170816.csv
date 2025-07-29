@@ -1,0 +1,8 @@
+id,date,store_nbr,item_nbr,unit_sales,onpromotion,category,holiday,item_class,perishable,item_name,cost_price,price
+125394240,8/16/2017,1,108952,4,FALSE,CLEANING,1,3024,0,Lysol All Purpose Cleaner Lemon Breeze 32 fl oz,6.8,8.86
+125394488,8/16/2017,1,402175,4,FALSE,Pantry Staples,1,1096,0,Mahatma Extra Long Grain Enriched Rice 5 lb,6.6,8.84
+125394693,8/16/2017,1,655749,4,FALSE,Pantry Staples,1,1096,0,Barilla Spaghetti Pasta 2 lb,5.9,7.85
+125395369,8/16/2017,1,1354390,4,FALSE,Pantry Staples,1,1042,0,Domino Granulated Sugar 4 lb,3.2,4.41
+125395609,8/16/2017,1,1471460,4,FALSE,DAIRY,1,2128,1,Borden Whole Milk Gallon,5.1,6.78
+125395747,8/16/2017,1,1686685,4,FALSE,PRODUCE,1,2034,1,"Dole Bananas, 2 lb Bunch",2.8,3.96
+125396024,8/16/2017,1,2010456,4,FALSE,Pantry Staples,1,1052,0,Uncle Ben’s Jasmine Rice 5 lb,6.6,8.86
