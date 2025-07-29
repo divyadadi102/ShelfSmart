@@ -96,7 +96,7 @@ const ForecastSection = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:8000/api/forecast", {
+        const res = await fetch("/api/api/forecast", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("access_token")}`,
           },

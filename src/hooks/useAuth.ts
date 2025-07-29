@@ -5,7 +5,7 @@ export const useAuth = () => {
   const navigate = useNavigate();
 
   const register = async (name: string, email: string, password: string, businessName: string) => {
-    const response = await fetch("http://127.0.0.1:8000/api/register", {
+    const response = await fetch("/api/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password, business_name: businessName }),
@@ -19,7 +19,7 @@ export const useAuth = () => {
   };
 
   const login = async (email: string, password: string) => {
-    const response = await fetch("http://127.0.0.1:8000/api/login", {
+    const response = await fetch("/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ export const useAuth = () => {
 export const fetchCurrentUser = async () => {
   const token = localStorage.getItem("access_token");
 
-  const response = await fetch("http://127.0.0.1:8000/api/user/me", {
+  const response = await fetch("/api/user/me", {
     headers: {
       Authorization: `Bearer ${token}`,
     },
