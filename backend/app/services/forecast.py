@@ -48,5 +48,5 @@ def get_products_forecast(
     data = [
         {"name": name, "expected": expected}
         for name, expected in sorted(product_sales.items(), key=lambda x: x[1], reverse=True)
-    ][:12]
+    ][:20]
     return data
